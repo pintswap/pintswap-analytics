@@ -1,0 +1,26 @@
+{
+  "name": "pintswap-analytics",
+  "version": "0.1.0",
+  "description": "PintSwap analytics programs",
+  "main": "lib/index.js",
+  "repository": "https://github.com/pintswap/pintswap-analytics",
+  "author": "pintswap",
+  "license": "MIT",
+  "bin": {
+    "pintswap-analytics": "./bin/pintswap-analytics.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@pintswap/sdk": "^1.4.7",
+    "ethers": "^6.4.0",
+    "setimmediate": "^1.0.5",
+    "winston": "^3.9.0"
+  }
+}
